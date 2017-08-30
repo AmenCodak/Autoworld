@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--This is the head section and it contains the *title* *meta data* & link port to your external file source! -->
+  <meta charset="utf-8" />
+  <title>AutoWorld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Amen Okojie" />
+  <meta name="keyword" content="Auto World, Best seller, Auto mobile, Worldwide shipping, Mercedes, Royce, BMW, latest car model, Corolla, Honda, Suzuki, Isuzu, Ford, Wagon," />
+  <meta name="description" content="AutoWorld being the brains behind the best wheels to suite your taste Whichever, Whenever and Wherever you find yourself in the world. Global Shipping" />
+  <meta http-equiv="refresh" content="30" />
+  <link rel="stylesheet" type="text/css" href="Css/AutoStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- This is the body section and it represents everything you get to see on a webpage -->
+
+<header>
+<!-- This is the header section that gets to deal with everything on the top of a website including the Menu and Navigation -->
+<nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about us.html">About Us</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="warranty.html">Warranty</a>
+  <a href="partners.html">Partners</a>
+  <a href="Contact us.html">Contact</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <span id="part" style="font-family: fantasy;">PARTNERS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=" margin: auto; text-align: center; float: center; cursor: pointer; color: #5a3d06;">Autoworld</span></span><img src="images/b2612b1dc4061e035cd169658650764f.png" height="40px">
+</div>
+</nav>
+</header>
+<!-- This is the Advert div section where you get to see the background image and color with the advertisement attachment attached to the entire div tag -->
+<div id="background"><img src="images/wood.png" height="80px" width="100%"></div><section id="sec">
+  <p id="advert"> -----advertisement----- </p>
+
+  <p><div id="advertCont"><img src="images/Ad4.jpg" style="width: 100%; height: 80px;"></div></p><br>
+  
+</section>
+    <div id="background2"><img src="images/clr2.jpg" height="47px" width="100%"></div>
+
+  <!-- This div tag contains only the slideshow-container with class name for special styling of how the slides appear and fades away -->
+  <p><div class="slideshow-container">
+
+  <div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/Honda 3.jpg" height="540px" style="width:100%">
+  <div class="text">Honda 2017</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images/test.jpg" height="540px" style="width:100%">
+  <div class="text">BMW</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images/2017-E-SEDAN.jpg" height="540px" style="width:100%">
+  <div class="text">Mercedes Benz 2017 E SEDAN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images/Ford.jpg" height="540px" style="width:100%">
+  <div class="text">Ford</div>
+</div>
+
+</div></p>
+<br>
+
+<!-- These are the dot container that controls the dots you see underneath each slide -->
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<!-- This is a javascript that controls the length pertaining to the number of each slides you get to see making it possible for interswitching of the movement -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!-- This is a simple javascript that controls the Left Margin Width of the side bar Menu when onclicked -->
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "185px";
+    document.getElementById("main").style.marginLeft = "185px";
+    document.getElementById("sec").style.marginLeft = "185px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("sec").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+<div id="background2"><img src="images/clr2.jpg" height="50px" width="100%"></div>
+<div style="background-color: #ecdd07; margin: 0px;">
+<h2 align="center"><span><strong>Partners</strong></span></h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family: monospace; font-size: 15px"> We have a wide community of Partners having but no one to Trust like going to bed with your eyes closed, we are known for ( S S S ):</span></p>
+<p><ul type="circle">
+    <li style="text-transform: uppercase; font-family: fantasy;">Services</li>
+    <li style="text-transform: uppercase; font-family: fantasy;">Speed</li>
+    <li style="text-transform: uppercase; font-family: fantasy;">Security</li>
+</ul>
+</p><div id="background2"><img src="images/clr2.jpg" height="46px" width="100%"></div>
+</div>
+<p id="hov"><img src="images/func.jpg" style="width: 100%; height: 600px;"></p>
+
+<p>
+  <section>
+    <div style="background-color: yellow;">
+      <sub><h3 style="text-transform: uppercase; text-align: center; margin-top: -20px; "><span style="margin-top: 90px;">partners forum</span></h3></sub>
+      <sub><p style="margin-left: 60px; text-transform: uppercase;"><b>Services</b></p></sub>
+      <sub><span style="margin-left: 15px">Due to our efficiency and effectiveness, we are known for as the best and reliable service providers
+      <p style="margin-left: 15px">Your Satisfaction : Our Pleasure <sup><sup><sup><sup><sup><sup><sup><img src="images/work2.jpg" height="115px" width="9%" style="border-radius: 100%; float: right; margin-top: -80px; margin-right: 5px; background-color: yellow;"></sup></sup></sup></sup></sup></sup></sup></p></span></sub>
+    </div>
+  </section>
+  <div id="background2"><img src="images/clr2.jpg" height="47px" width="100%"></div>
+</p>
+
+<p>
+  <section>
+    <div style="background-color: yellow; height: 200px;">
+      <sup><sup><sup><sup><sup><sup><sup><img src="images/work5.jpg" height="115px" width="9%" style="border-radius: 100%; margin-top: 25px; margin-right: 5px; background-color: yellow;"></sup></sup></sup></sup></sup></sup></sup>
+      <sub><h3 style="text-transform: uppercase; text-align: center; text-align: right; margin-top: -145px "> auto partners&nbsp;&nbsp;&nbsp;</h3></sub>
+      <sub><p style="margin-left: 60px; text-transform: uppercase; text-align: right;"><b>Speed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></p></sub>
+      <sub><span style="margin-left: 15px; text-align: right; float: right;">Time is money and a valuable asset we do not waste much ON&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <p style="margin-left: 15px; text-align: right;">Your Satisfaction : Our Pleasure &nbsp;&nbsp;&nbsp;&nbsp;</p></span></sub>
+    </div>
+  </section>
+</p>
+
+<div class="tableup">
+        <section class="table1">
+            <table align="center">
+              <tr>
+              <th></th>
+              <th id="headi">DESCRIPTION</th>
+              <th id="headi">TYPICAL LOAN AMOUNT</th>
+              <th id="headi">REPRESENTATIVE APR</th>
+              <th colspan="2" id="headi">TYPICAL LOAN TERM</th>
+              </tr><hr>
+
+              <tr align="center">
+                <td><img src="images/image007.jpg" width="140%"><font color="green">></font></td>
+                <td align="left">Now offering 0% deposit finance to top-performing driver partners in Nigeria</td>
+                <td align="left">Insurance (not included - optional)</td>
+                <td>From N22,000/week%</td>
+                <td>36 months</td>
+                <td style="border: 1px solid black; background-color: lightblue; color: white; border-width: 0px" id="deal">SEE DEAL</td>
+              </tr>
+
+              <tr align="center">
+                <td><img src="images/download.jpeg" width="160%"><font color="green">></font></td>
+                <td align="left">Introducing the first financing facility (up to N2.5 million per vehicle) designed for Uber driver-partners based on performance</td>
+                <td align="left">Insurance (not included - optional)</td>
+                <td>From N27,000/week%</td>
+                <td>24 months</td>
+                <td id="deal">SEE DEAL</td>
+              </tr>
+
+              <tr align="center">
+                <td><img src="images/Car4U.png" width="160%"><font color="green">></font></td>
+                <td align="left">Car4U offers an opportunity for drivers to access finance for a brand new vehicle with our help.</td>
+                <td>Insurance and Maintenance</td>
+                <td>From N50,000/week%</td>
+                <td>36 - 48 months</td>
+                <td id="deal">SEE DEAL</td>
+            </tr>
+            </table>
+            </section>
+            </div>
+<img src="images/forddirect.png" style="background-color: yellow;">
+<div class="col-container">
+  <div class="col" style="width: 30%">
+    <h3>&nbsp; <span id="unknown" style="text-transform: uppercase; font-size: 25px;">Our Company</span></h3>
+    <a href="about us.html" style="color: white; cursor: pointer; text-decoration: none;"><p>&nbsp; About Us</p></a>
+    <a href="contact us.html" style="color: white; cursor: pointer; text-decoration: none;"><p>&nbsp; Contact</p>
+    <p>&nbsp; Site Map</p></a>
+    <p>&nbsp; Fraud Awareness</p>
+  </div>
+
+  <div class="col" style="">
+    <h2><span id="unknown" style="text-transform: uppercase;">Our Partners</span></h2>
+    <p>Auto</p>
+    <p>New Cars</p>
+    <p>Repairs</p>
+  </div>
+</div>
+
+<!-- This is the bottom row of this website and contains everything concerning the footer of this webpage -->
+<footer>
+<div class="footer2" style="font-size: 13px;">
+    <p>Copyright &copy 2017 Autoworld.com All rights Reseverd
+
+    &nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+
+    
+    <i class="fa fa-facebook"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-google-plus"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-twitter"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-youtube-play"></i>
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Sitemap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+  </div>
+  </footer>
+</body>
+</html> 

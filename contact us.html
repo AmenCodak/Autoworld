@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--This is the head section and it contains the *title* *meta data* & link port to your external file source! -->
+  <meta charset="utf-8" />
+  <title>AutoWorld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Amen Okojie" />
+  <meta name="keyword" content="Auto World, Best seller, Auto mobile, Worldwide shipping, Mercedes, Royce, BMW, latest car model, Corolla, Honda, Suzuki, Isuzu, Ford, Wagon," />
+  <meta name="description" content="AutoWorld being the brains behind the best wheels to suite your taste Whichever, Whenever and Wherever you find yourself in the world. Global Shipping" />
+  <meta http-equiv="refresh" content="30" />
+  <link rel="stylesheet" type="text/css" href="Css/AutoStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+
+    function Confirm() {
+      alert("Thank you for your Message. We will treat your case confidentially.");
+    }
+
+  </script>
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- This is the body section and it represents everything you get to see on a webpage -->
+
+<header>
+<!-- This is the header section that gets to deal with everything on the top of a website including the Menu and Navigation -->
+<nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about us.html">About Us</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="warranty.html">Warranty</a>
+  <a href="partners.html">Partners</a>
+  <a href="Contact us.html">Contact</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<img src="images/images.jpeg" height="50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=" margin: auto; text-align: center; float: center; cursor: pointer; color: #5a3d06;">Autoworld</span></span><img src="images/b2612b1dc4061e035cd169658650764f.png" height="40px">
+</div>
+</nav>
+</header>
+<!-- This is the Advert div section where you get to see the background image and color with the advertisement attachment attached to the entire div tag -->
+<div id="background"><img src="images/wood.png" height="80px" width="100%"></div><section id="sec">
+  <p id="advert"> -----advertisement----- </p>
+
+  <p><div id="advertCont"><img src="images/banner2.png" style="width: 100%; height: 70px;"></div></p><br>
+  
+</section>
+    <div id="background2"><img src="images/clr2.jpg" height="47px" width="100%"></div>
+
+  <!-- This div tag contains only the slideshow-container with class name for special styling of how the slides appear and fades away -->
+  <p><div class="slideshow-container">
+
+  <div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/Honda 3.jpg" height="540px" style="width:100%">
+  <div class="text">Honda 2017</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images/test.jpg" height="540px" style="width:100%">
+  <div class="text">BMW</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images/2017-E-SEDAN.jpg" height="540px" style="width:100%">
+  <div class="text">Mercedes Benz 2017 E SEDAN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images/Ford.jpg" height="540px" style="width:100%">
+  <div class="text">Ford</div>
+</div>
+
+</div></p>
+<br>
+
+<!-- These are the dot container that controls the dots you see underneath each slide -->
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<!-- This is a javascript that controls the length pertaining to the number of each slides you get to see making it possible for interswitching of the movement -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!-- This is a simple javascript that controls the Left Margin Width of the side bar Menu when onclicked -->
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "185px";
+    document.getElementById("main").style.marginLeft = "185px";
+    document.getElementById("sec").style.marginLeft = "185px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("sec").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<section style="background-color: black;">
+<div id="">
+<center><span class="sp"><strong><h3><b>Networks</b></h3></strong></span></center>
+  <table>
+    <tr>
+      <td>
+        <span class="sp"><strong>Address</strong></span>
+        <font color="white"><br>57 Awolowo Rd, Falomo, Lagos.
+        <br>Currimundi, QLD 4551</font>
+        
+        <p><span class="sp"><strong>Contact</strong></span></p>
+        <font color="white"><br><strong>Phone: </strong> (07) 5438 4888
+        <br><strong>Fax: </strong> (07) 5438 4899
+        <br><strong>Email: </strong><a id="hyperlink" href="mailto:h20straight@gmail.com" style="color: white; text-decoration: none;">h20straight@gmail.com</a></font>
+      </td>
+
+      <td style="color: white;">
+        <span class="sp"><strong>Sales Opening Hours</strong></span>
+        <font color="white"><br><br>Mon: 8:00am-5:30pm
+        <br>Tue: 8:00am-5:30pm
+        <br>Wed: 8:00am-5:30pm
+        <br>thu: 8:00am-5:30pm
+        <br>Fri: 8:00am-5:30pm
+        <br>Sat: 8:00am-4:00pm
+        <br>Sun: Closed</font>
+      </td>
+
+      <td>
+        <span class="sp"><strong>Available @ this Dealership</strong></span>
+        <ul>
+          <font color="white"><li>Sales</li>
+          <li>Service</li>
+          <li>Hardware Processing</li></font>
+        </ul>
+      </td>
+    </tr>
+    </div>
+    </table></div>
+    </section>
+
+    <section>
+     <h1 class="cform" style="text-transform: uppercase; font-family: fantasy;">Contact Form</h1>
+
+<div class="cont1">
+  <form action="/action_page.php"  method="post">
+    <label for="fname">Email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your email..">
+
+    <label for="lname">Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your name..">
+
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="select">Select your option</option>
+      <option value="buying">Buying a Car</option>
+      <option value="activity">Suspicious Acticity</option>
+      <option value="issues">Technical Issues</option>
+      <option value="alerts">Inventory Alerts</option>
+      <option value="feedback">Feedbacks from Dealers or Sellers</option>
+      <option value="Mark">Marketing and Advertising</option>
+      <option value="Develop">Business Development or Partnership</option>
+      <option value="feat">Services and Repair Features</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Leave us a Message..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" onclick="Confirm()" >
+  </form>
+</div>
+</section>
+<br>
+
+
+    <div id="">
+      <center><span><strong><h3>Contact us</h3></strong></span></center>
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6088016261256!2d3.421190114770267!3d6.444248595337752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4d40ab3fc61%3A0xe2ba531bf851d238!2s57+Awolowo+Rd%2C+Falomo%2C+Lagos!5e0!3m2!1sen!2sng!4v1490822050800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<div class="col-container">
+  <div class="col" style="width: 30%">
+    <h3>&nbsp; <span id="unknown" style="text-transform: uppercase; font-size: 25px;">Our Company</span></h3>
+    <a href="about us.html" style="color: white; cursor: pointer; text-decoration: none;"><p>&nbsp; About Us</p></a>
+    <a href="contact us.html" style="color: white; cursor: pointer; text-decoration: none;"><p>&nbsp; Contact</p></a>
+    <p>&nbsp; Site Map</p>
+    <p>&nbsp; Fraud Awareness</p>
+  </div>
+
+  <div class="col" style="">
+    <h2><span id="unknown" style="text-transform: uppercase;">Our Partners</span></h2>
+    <p>Auto</p>
+    <p>New Cars</p>
+    <p>Repairs</p>
+  </div>
+</div>
+
+<!-- This is the bottom row of this website and contains everything concerning the footer of this webpage -->
+<footer>
+<div class="footer2" style="font-size: 13px;">
+    <p>Copyright &copy 2017 Autoworld.com All rights Reseverd
+
+    &nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+
+    
+    <i class="fa fa-facebook"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-google-plus"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-twitter"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-youtube-play"></i>
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Sitemap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+  </div>
+  </footer>
+</body>
+</html> 

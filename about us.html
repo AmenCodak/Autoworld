@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--This is the head section and it contains the *title* *meta data* & link port to your external file source! -->
+  <meta charset="utf-8" />
+  <title>AutoWorld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Amen Okojie" />
+  <meta name="keyword" content="Auto World, Best seller, Auto mobile, Worldwide shipping, Mercedes, Royce, BMW, latest car model, Corolla, Honda, Suzuki, Isuzu, Ford, Wagon," />
+  <meta name="description" content="AutoWorld being the brains behind the best wheels to suite your taste Whichever, Whenever and Wherever you find yourself in the world. Global Shipping" />
+  <meta http-equiv="refresh" content="30" />
+  <link rel="stylesheet" type="text/css" href="Css/AutoStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="document.body.style.opacity='1'">
+<!-- This is the body section and it represents everything you get to see on a webpage -->
+
+<header>
+<!-- This is the header section that gets to deal with everything on the top of a website including the Menu and Navigation -->
+<nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about us.html">About Us</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="warranty.html">Warranty</a>
+  <a href="partners.html">Partners</a>
+  <a href="Contact us.html">Contact</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=" margin: auto; text-align: center; float: center; cursor: pointer; color: #5a3d06;">Autoworld</span></span><img src="images/b2612b1dc4061e035cd169658650764f.png" height="40px">
+</div>
+</nav>
+</header>
+<div id="background"><img src="images/wood.png" height="80px" width="100%"></div><section id="sec">
+  <p id="advert"> -----advertisement----- </p>
+
+  <p><div id="advertCont"><img src="images/up_1181_banners.jpg" style="width: 100%; height: 80px;"></div></p><br>
+  
+</section>
+    <div id="background2"><img src="images/clr2.jpg" height="47px" width="100%"></div><p><div class="slideshow-container">
+
+  <div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/Honda 3.jpg" height="540px" style="width:100%">
+  <div class="text">Honda 2017</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images/test.jpg" height="540px" style="width:100%">
+  <div class="text">BMW</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images/2017-E-SEDAN.jpg" height="540px" style="width:100%">
+  <div class="text">Mercedes Benz 2017 E SEDAN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images/Ford.jpg" height="540px" style="width:100%">
+  <div class="text">Ford</div>
+</div>
+
+</div></p>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div><div id="background2"><img src="images/clr2.jpg" style="margin: 0px; margin-top: 0px; " height="100px" width="100%"></div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "185px";
+    document.getElementById("main").style.marginLeft = "185px";
+    document.getElementById("sec").style.marginLeft = "185px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("sec").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<section style="background-color: black; color: white; font-family: monospace;">
+  <div class="yarn">
+    <h1 style="color: red; text-transform: uppercase; text-align: center; margin-top: 15px;">AUTOWORLD</h1>
+    <p style="font-family: fantasy; font-size: 18px;">
+      Since incorporation in 1987 Autoworld Motors; our flagship company, has been driven by the vision of remaining timeless in relevance and value. By constantly keeping to our Brand promise, Autoworld Motors has become a household name providing the Nigerian people with vehicles from a robustly diversified auto dealership, comprising of five luxury and two value brands. These brands are showcased in our ultra modern showrooms nationwide. 
+    </p>  
+    <p style="font-family: fantasy; font-size: 18px;">
+Autoworld Motors has followed through by making significant investments in state of the art Aftersales facilities across the country and training of specialized personnel to ensure that our customers stay satisfied while putting their vehicles on the road. In addition, through strategic partnerships Autoworld Motors ensures that wherever you are, our services are readily accessible.
+    </p>
+    <p style="font-family: fantasy; font-size: 18px;">
+Asides from the brands that Autoworld Motors represents, the company has also made it its duty to ensure that motorist are kept safe on the road and their vehicles in good condition by providing genuine automotive spare parts and automotive related products to the general public via distributors. 
+Autoworld Motors sales and service locations are spread across the five geopolitical zones including Abuja, Kano, Gombe, Lagos, Ekiti, Ibadan, Port Harcourt, Uyo, Calabar, Enugu to mention a few.
+    </p>
+    <p style="font-family: fantasy; font-size: 18px;">
+With a view to give back to our society, Coscharis regularly engages in social responsibility investments especially through the sponsorship of both public and private human development activities such as the annual week of caring, Public Private Auto Training Programmes at our auto training center amongst others. 
+    </p>
+    </div><div id="background2"><img src="images/clr2.jpg" height="100px" width="100%" style="margin: 0px; margin-top: 0px; "></div>
+  </section><div id="background2"><img src="images/clr2.jpg" height="100px" width="100%" style="margin: 0px; margin-top: 0px; "></div>
+  <section>
+    <div class="yarn">
+    <h1 style="text-align: center; text-transform: uppercase; color: red;"><mark><font color="red">NEW Car Reviews</font></mark></h1>
+    <p style="text-align: center; font-family: serif; font-size: 30px; text-transform: uppercase;">Our expert reviewers report back with the latest</p>
+    <p style="text-align: center; text-transform: uppercase; font-family: all;">Technicality</p>
+<div class="cont">
+  <div class="skills html">91%</div>
+</div>
+
+<p style="text-align: center; text-transform: uppercase; font-family: all;">Customers Feedback</p>
+<div class="cont">
+  <div class="skills css">80%</div>
+</div>
+
+<p style="text-align: center; text-transform: uppercase; font-family: all;">Buying and Selling</p>
+<div class="cont">
+  <div class="skills js">94%</div>
+</div>
+
+<p style="text-align: center; text-transform: uppercase; font-family: all;">Suspicious Alerts</p>
+<div class="cont">
+  <div class="skills php">30%</div>
+</div>
+  </section>
+
+<div class="col-container">
+  <div class="col" style="width: 30%">
+    <h3>&nbsp; <span id="unknown" style="text-transform: uppercase; font-size: 25px;">Our Company</span></h3>
+    <p>&nbsp; <a href="about us.html" style="color: white; cursor: pointer; text-decoration: none;">About Us</p></a>
+    <a href="contact us.html" style="color: white; cursor: pointer; text-decoration: none;"><p>&nbsp; Contact</p></a>
+    <p>&nbsp; Site Map</p>
+    <p>&nbsp; Fraud Awareness</p>
+  </div>
+
+  <div class="col" style="">
+    <h2><span id="unknown" style="text-transform: uppercase;">Our Partners</span></h2>
+    <p>Auto</p>
+    <p>New Cars</p>
+    <p>Repairs</p>
+  </div>
+</div>
+
+<footer>
+<div class="footer2" style="font-size: 13px;">
+    <p>Copyright &copy 2017 Autoworld.com All rights Reseverd
+
+    &nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+    &nbsp;&nbsp;
+
+    
+    <i class="fa fa-facebook"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-google-plus"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-twitter"></i>
+    &nbsp;&nbsp;
+    &nbsp;
+    <i class="fa fa-youtube-play"></i>
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Sitemap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+  </div>
+  </footer>
+</body>
+</html> 
